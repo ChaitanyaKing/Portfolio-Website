@@ -705,7 +705,6 @@ textarea.form-input {
 
 .contact-method {
     display: flex;
-    margin-right: 0;
     align-items: center;
     margin-bottom: 1rem;
     transform-style: preserve-3d;
