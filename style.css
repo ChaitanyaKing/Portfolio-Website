@@ -532,6 +532,7 @@ img {
 
 .project-image {
     height: 200px;
+    width: 400px;
     overflow: hidden;
     transform-style: preserve-3d;
 }
