@@ -263,15 +263,23 @@ img {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* Distributes content equally */
     position: relative;
-    background: linear-gradient(135deg,#415edf, #4ac5ea);
+    background: linear-gradient(135deg, #415edf, #4ac5ea);
     overflow: hidden;
     transform-style: preserve-3d;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
+.hero > * {
+    flex: 1; /* Ensures equal width for all child elements */
+    text-align: center; /* Centers text inside child elements */
+}
+
+
 .hero-image {
-    margin-left: 15%;
     transform-style: preserve-3d;
     animation: float 6s ease-in-out infinite;
 }
